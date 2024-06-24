@@ -37,8 +37,9 @@ body {
 .first:hover {
   background-color: rgb(184, 197, 192);
 }
+
 .first2 {
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(184, 197, 192);
   padding: 10px;
 }
 .first i {
@@ -82,8 +83,7 @@ img:hover {
   transition: all 0.3s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.firstv1 button,
-.separate button {
+button {
   border: 1px solid transparent;
   background-color: transparent;
   cursor: pointer;
@@ -92,6 +92,11 @@ img:hover {
   padding: 15px;
   transition: all 0.3s ease-in-out;
 }
+.special {
+  border: 1px solid rgb(77, 134, 241);
+  border-radius: 25px;
+}
+
 .firstv1 button:hover,
 .separate button:hover {
   background-color: rgb(77, 134, 241);
@@ -127,6 +132,7 @@ img {
   object-fit: cover;
   border-radius: 3px;
 }
+
 @media (max-width: 1080px) {
   body {
     padding: 10px;
